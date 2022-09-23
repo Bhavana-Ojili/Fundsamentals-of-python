@@ -5,3 +5,7 @@ SAMPLE INPUT :
 Programmer
 SAMPLE OUTPUT :
 Programmer
+
+SOLUTION:
+string=input()
+print(string)
