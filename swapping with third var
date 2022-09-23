@@ -1,0 +1,19 @@
+PROGRAM:
+Write a python program to get 2 numbers from the user and swap their values without any loss of data. You can make use of additional 3rdvariable for swapping. Print the corresponding swapped values of the two numbers as output in the console. 
+
+SAMPLE INPUT:
+20
+10
+SAMPLE OUTPUT:
+10
+20
+
+ 
+SOLUTION:
+a=int(input())
+b=int(input())
+c=a
+a=b
+b=c
+print(a)
+print(b)
