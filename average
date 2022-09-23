@@ -1,0 +1,20 @@
+A teacher wants to compute the average of 5 students in her class. Write a program to help her to find the average. The average is the sum of all the numbers, then divided by the total numbers. 
+
+SAMPLE INPUT: 
+10
+20
+30
+40
+50 
+SAMPLE OUTPUT:
+30.00
+
+SOLUTION:
+m1=float(input())
+m2=float(input())
+m3=float(input())
+m4=float(input())
+m5=float(input())
+sum=m1+m2+m3+m4+m5
+avg=sum/5
+print('%.2f'%avg)
